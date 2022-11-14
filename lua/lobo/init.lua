@@ -1,4 +1,3 @@
 require("lobo.set")
 require("lobo.remap")
-require("packer")
-print("LOBO here!")
+require("lobo.packer")

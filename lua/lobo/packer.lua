@@ -4,10 +4,12 @@ if (not status) then
 	return
 end
 
-vim.cmd [[packadd packer.vim]]
+vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim' -- Packer self management
 
     use 'folke/tokyonight.nvim' -- Tokyo Night Theme
+
+    use 'hoob3rt/lualine.nvim' -- Status line
 end)
