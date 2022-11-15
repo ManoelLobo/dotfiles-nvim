@@ -36,4 +36,5 @@ return require('packer').startup(function(use)
 
     use 'akinsho/nvim-bufferline.lua'
 
+    use 'lewis6991/gitsigns.nvim'
 end)
