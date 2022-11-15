@@ -14,9 +14,17 @@ return require('packer').startup(function(use)
     use 'hoob3rt/lualine.nvim' -- Status line
 
     -- LSP configs
+    use 'nvim-lua/plenary.nvim'
     use 'onsails/lspkind-nvim'
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/nvim-cmp'
     use 'neovim/nvim-lspconfig'
+    use 'jose-elias-alvarez/null-ls.nvim'
+    use 'L3MON4D3/LuaSnip'
+
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    }
 end)
