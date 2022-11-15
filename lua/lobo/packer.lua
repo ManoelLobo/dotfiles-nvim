@@ -13,8 +13,9 @@ return require('packer').startup(function(use)
 
     use 'hoob3rt/lualine.nvim' -- Status line
 
-    -- LSP configs
     use 'nvim-lua/plenary.nvim'
+
+    -- LSP configs
     use 'onsails/lspkind-nvim'
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-nvim-lsp'
@@ -37,4 +38,7 @@ return require('packer').startup(function(use)
     use 'akinsho/nvim-bufferline.lua'
 
     use 'lewis6991/gitsigns.nvim'
+
+    use 'nvim-telescope/telescope.nvim'
+    use 'nvim-telescope/telescope-file-browser.nvim'
 end)
