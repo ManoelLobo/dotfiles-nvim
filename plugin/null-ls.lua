@@ -28,7 +28,7 @@ null_ls.setup {
         buffer = bufnr,
         callback = function()
           lsp_formatting(bufnr)
-        end,
+        end
       })
     end
   end
