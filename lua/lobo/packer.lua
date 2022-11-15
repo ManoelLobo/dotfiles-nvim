@@ -12,4 +12,11 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim' -- Tokyo Night Theme
 
     use 'hoob3rt/lualine.nvim' -- Status line
+
+    -- LSP configs
+    use 'onsails/lspkind-nvim'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/nvim-cmp'
+    use 'neovim/nvim-lspconfig'
 end)
