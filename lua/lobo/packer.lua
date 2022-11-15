@@ -33,4 +33,7 @@ return require('packer').startup(function(use)
     use 'windwp/nvim-ts-autotag'
 
     use 'norcalli/nvim-colorizer.lua'
+
+    use 'akinsho/nvim-bufferline.lua'
+
 end)
