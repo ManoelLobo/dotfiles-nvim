@@ -1,3 +1,3 @@
 local nnoremap = require("lobo.keymap").nnoremap
 
-nnoremap("<leader>ex", "<cmd>Ex<CR>")
+nnoremap("<leader>ex", ":Ex<CR>")

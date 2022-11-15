@@ -6,16 +6,16 @@ local function bind(op, outer_opts)
 		opts = vim.tbl_extend("force",
 			outer_opts,
 			opts or {}
-			)
+        )
 		vim.keymap.set(op, lhs, rhs, opts)
 	end
 end
 
 M.nmap = bind("n", {noremap = false})
 M.nnoremap = bind("n")
-M.nnoremap = bind("v")
-M.nnoremap = bind("x")
-M.nnoremap = bind("i")
+M.vnoremap = bind("v")
+M.xnoremap = bind("x")
+M.inoremap = bind("i")
 
 return M
 
