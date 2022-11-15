@@ -22,6 +22,7 @@ return require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'L3MON4D3/LuaSnip'
+    use 'glepnir/lspsaga.nvim' -- LSP UIs
 
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -30,4 +31,6 @@ return require('packer').startup(function(use)
 
     use 'windwp/nvim-autopairs'
     use 'windwp/nvim-ts-autotag'
+
+    use 'norcalli/nvim-colorizer.lua'
 end)
