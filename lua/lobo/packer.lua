@@ -53,4 +53,5 @@ return require('packer').startup(function(use)
                 -- refer to the configuration section below
             }
         end}
+    use 'dinhhuy258/git.nvim'
 end)
