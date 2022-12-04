@@ -54,4 +54,9 @@ return require('packer').startup(function(use)
             }
         end}
     use 'dinhhuy258/git.nvim'
+
+    use 'crispgm/nvim-go'
+--    use 'ray-x/go.nvim'
+--    use 'ray-x/guihua.lua'
+
 end)
