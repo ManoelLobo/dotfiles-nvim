@@ -1,6 +1,7 @@
 local nnoremap = require("lobo.keymap").nnoremap
 
-nnoremap("<leader>xp", ":Telescope file_browser<CR>")
+nnoremap("<leader>xp", ":Telescope file_browser hidden=true<CR>")
+nnoremap("<leader>xv", ":Telescope file_browser<CR>")
 nnoremap("<leader>ted", ":tabe<CR>")
 
 nnoremap("<leader>sl", ":split<CR><C-w>w")
