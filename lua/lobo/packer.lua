@@ -59,4 +59,6 @@ return require('packer').startup(function(use)
 --    use 'ray-x/go.nvim'
 --    use 'ray-x/guihua.lua'
 
+    use 'pantharshit00/vim-prisma'
+
 end)
